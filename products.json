@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Bread (loaf)",
+    "category": "Bakery",
+    "price": 585.0,
+    "image": "assets/Bread.jpeg"
+  },
+  {
+    "name": "Matches (box)",
+    "category": "Household",
+    "price": 103.0,
+    "image": "assets/box matches.jpeg"
+  },
+  {
+    "name": "Palm Oil 5L",
+    "category": "Oils",
+    "price": 6364.0,
+    "image": "assets/palm oil 5L.jpeg"
+  },
+  {
+    "name": "Beans (White)",
+    "category": "Grains",
+    "price": 847.0,
+    "image": "assets/white beans.jpeg"
+  },
+  {
+    "name": "Plantain (bunch)",
+    "category": "Produce",
+    "price": 2390.0,
+    "image": "assets/plantain.jpeg"
+  },
+  {
+    "name": "Beans (Red)",
+    "category": "Grains",
+    "price": 938.0,
+    "image": "assets/red beans.jpeg"
+  },
+  {
+    "name": "Maggi Cubes (pack)",
+    "category": "Groceries",
+    "price": 503.0,
+    "image": "assets/pack maggi.jpeg"
+  },
+  {
+    "name": "Tomato Paste (tin)",
+    "category": "Groceries",
+    "price": 355.0,
+    "image": "assets/tin tomatoes.jpeg"
+  },
+  {
+    "name": "Soap (bar)",
+    "category": "Household",
+    "price": 390.0,
+    "image": "assets/bar soap.jpeg"
+  },
+  {
+    "name": "Onions 1kg",
+    "category": "Produce",
+    "price": 748.0,
+    "image": "assets/onion.jpeg"
+  },
+  {
+    "name": "Vegetable Oil 5L",
+    "category": "Oils",
+    "price": 7137.0,
+    "image": "assets/Vegetable Oil 5L.jpeg"
+  },
+  {
+    "name": "Salt 1kg",
+    "category": "Groceries",
+    "price": 293.0,
+    "image": "assets/salt 1 kg.jpeg"
+  },
+  {
+    "name": "Cassava (bag)",
+    "category": "Produce",
+    "price": 4209.0,
+    "image": "assets/cassava(bag).jpeg"
+  },
+  {
+    "name": "Sugar 1kg",
+    "category": "Groceries",
+    "price": 781.0,
+    "image": "assets/sugar 1kg.jpeg"
+  },
+  {
+    "name": "Rice 25kg",
+    "category": "Grains",
+    "price": 18393.0,
+    "image": "assets/rice 25kg.jpeg"
+  },
+  {
+    "name": "Rice 50kg",
+    "category": "Grains",
+    "price": 36669.0,
+    "image": "assets/rice 50kg.jpeg"
+  },
+  {
+    "name": "Detergent 1kg",
+    "category": "Household",
+    "price": 1931.0,
+    "image": "assets/detergent 1kg.jpeg"
+  },
+  {
+    "name": "Palm Oil 1L",
+    "category": "Oils",
+    "price": 1400.0,
+    "image": "assets/palm oil 1L.jpeg"
+  },
+  {
+    "name": "Milk Powder 400g",
+    "category": "Dairy",
+    "price": 2876.0,
+    "image": "assets/milk powder.jpeg"
+  },
+  {
+    "name": "Tomatoes 1kg",
+    "category": "Produce",
+    "price": 818.0,
+    "image": "assets/tomato.jpeg"
+  }
+]
