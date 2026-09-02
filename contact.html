@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Nkwen Traders</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="wordmark">Nkwen <span>Traders</span></a>
+    <div class="header-right">
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="cart.html" class="cart-link" aria-label="View cart">
+        🧺<span id="cart-count" class="cart-badge" hidden>0</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-wrap">
+      <p class="eyebrow">Get in touch</p>
+      <h1>Ask us before you make the trip.</h1>
+      <p class="lede">
+        Checking if something is in stock, or asking about a bulk order?
+        Send a message and we'll get back to you.
+      </p>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-field">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+
+        <div class="form-field">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="e.g. 6XX XXX XXX">
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="What are you looking for?"></textarea>
+        </div>
+
+        <p class="form-note">
+          This form does not send yet — it's a front-end preview only, no
+          backend is connected at this stage.
+        </p>
+
+        <button type="submit" class="btn">Send message</button>
+
+        <p class="form-success" id="form-success" hidden role="status">
+          Thanks — your message looks ready to send once the contact
+          backend is connected.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="wordmark">Nkwen Traders</div>
+        <p>Everyday goods, honestly priced. Nkwen Market, Bamenda.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/cart.js"></script>
+  <script>
+    // Front end only: confirms the form is filled out correctly and shows
+    // a success message in place of a real submission (no backend yet).
+    document.getElementById('contact-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const form = event.target;
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      document.getElementById('form-success').hidden = false;
+      form.reset();
+    });
+  </script>
+</body>
+</html>
